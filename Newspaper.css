@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+  
+  background: url('https://www.setaswall.com/wp-content/uploads/2017/09/Park-Wallpaper-36-1920x1080.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-attachment: fixed;
+}
+
+
+
+.newspaper{
+    background-color: white;
+    color:black;
+    max-width: 800px !important;
+
+    
+}
+
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 10px solid rgb(0, 102, 255);
+  }
+
+.hr1 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-top: 5px solid black;
+  }
+
+
+
+  .newsImage {
+      max-width: 400px;
+      margin: auto;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }
+
+  .author{
+      font-weight: bold;
+      text-align: left;
+
+  }
+
+  .description{
+    text-align: left;
+  }
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+.search-bar {
+ position: fixed;
+}
+
+.page{
+  font-style: italic;
+}
+
+

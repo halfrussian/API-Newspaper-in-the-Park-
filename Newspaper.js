@@ -1,13 +1,13 @@
 let news = {
   apiKey: "&apiKey=1YP7UBvFk7kGySFoTP-UlCjC88qsE7PQExPbH10M5JbR3NhM",
-  
   fetchNews: function(keywords){
     
     fetch(
       'https://api.currentsapi.services/v1/latest-news?&keywords=' +
        keywords +
        this.apiKey
-         )
+      )
+    
     
       .then((response) => {
        if(!response.ok){
@@ -18,9 +18,6 @@ let news = {
     })
       
       .then((data) => this.displayNews(data));
-    
-    
-     
   },
   
 
@@ -62,8 +59,6 @@ let news = {
    const description3 = document.getElementById("description3");
    description3.textContent = data.news[2].description
       
-  
-    
     },
   search: function() {
     this.fetchNews(document.querySelector(".search-bar").value);
@@ -84,7 +79,6 @@ document
       news.search();
     }
   });
-
 
 
 //handles the 1st full story click button
